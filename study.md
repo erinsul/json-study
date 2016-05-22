@@ -68,7 +68,34 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+
+{
+	"Name": "Jason",
+	"Cat": "Mr. Kitty",
+	"Roommates":
+		{
+			"Name": "Dave", "Goldfish":
+					[
+						{ "Name": "Bob", "Color": "Red" },
+						{ "Name": "Mr. Magicnibbles", "Color": "Yellow", "Bites": "A bit" }
+					],
+			"Name": "Miller"
+		},
+    "Loves":
+  			{
+  				"Teams":
+  					[
+  						{ "Baseball": "Red Sox"},
+  						{ "Football": "Patriots"},
+  						{ "Hockey": "Bruins"}
+  					]
+  			},
+  "Has Lived":
+  		{
+  			"Address": "123 Fake Street",
+  			"Address": "2 Muchinfo Road"
+  		}
+}
 ```
 
 ## JSON Methods
