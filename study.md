@@ -46,12 +46,15 @@ As it makes sense to you please write the following in JSON format:
 			"Name": "Dave",
 			"Name": "Miller"
 		},
-	"Loves":
-		{
-			"Team": "Red Sox",
-			"Team": "Patriots",
-			"Team": "Bruins"
-		},
+    "Loves":
+  			{
+  				"Teams":
+  					[
+  						{ "Baseball": "Red Sox"},
+  						{ "Football": "Patriots"},
+  						{ "Hockey": "Bruins"}
+  					]
+  			},
   "Has Lived":
   		{
   			"Address": "123 Fake Street",
